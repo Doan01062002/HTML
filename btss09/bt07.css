@@ -1,0 +1,22 @@
+
+*{
+    padding: 0px;
+    border: 0px;
+}
+.class1{
+    border: 1px white solid;
+    background-color: rgb(189, 176, 160);
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+.class1:hover{
+    transition: 1s;
+    width: 400px;
+    height: 400px;
+}
+#h1{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}

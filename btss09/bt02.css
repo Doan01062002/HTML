@@ -1,0 +1,85 @@
+*{
+    padding: 0px;
+    border: 0px;
+}
+.class1{
+    position: relative;
+    background-image: url(https://oto.edu.vn/wp-content/uploads/2021/01/bo-toi-la-tho-may-o-to-2.jpg);
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    border-radius: 5%;
+}
+.class1 .opacity1{
+    border: solid white 1px;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10%;
+    opacity: 10%;
+    position: absolute;
+    top: 50px;
+    left: 70px;
+}
+.class1 .opacity2{
+    border: solid white 1px;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10%;
+    opacity: 10%;
+    position: absolute;
+    top: 100px;
+    left: 150px;
+}
+.class1 .font{
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+}
+.class1 .class2{
+    position: absolute;
+    border: 0px white solid;
+    width: auto;
+    top: 20px;
+    left: 30px;
+    background-color: red;
+    border-radius: 20%;
+}
+.class1 .img{
+    position: absolute;
+    top: 70px;
+    right: 20px;
+}
+.class1 .class3{
+    position: absolute;
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+    top: 150px;
+    right: 20px;
+}
+.class1 .class4{
+    position: absolute;
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+    top: 230px;
+    right: 20px;
+}
+.class1 .line1{
+    position: absolute;
+    border: 1px solid white;
+    height: 29px;
+    top: 120px;
+    right: 45px;
+}
+.class1 .line2{
+    position: absolute;
+    border: 1px solid white;
+    height: 28px;
+    top: 201px;
+    right: 45px;
+}

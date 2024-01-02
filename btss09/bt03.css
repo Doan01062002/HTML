@@ -1,0 +1,21 @@
+*{
+    padding: 0px;
+    border: 0px;
+}
+.class1{
+    background-image: url(https://forbes.vn/wp-content/uploads/2022/06/founders01-1.jpg);
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    position: relative;
+}
+.class1 .class2{
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+}
+#id{
+    position: absolute;
+    bottom: 20px;
+    left: 80px;
+}

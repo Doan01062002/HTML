@@ -1,0 +1,12 @@
+.class1{
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    transition: 1s;
+    text-align: center;
+}
+.class1:hover{
+    width: 300px;
+    height: 300px;
+    transform: rotate(45deg);
+}

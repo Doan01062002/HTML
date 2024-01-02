@@ -1,0 +1,14 @@
+*{
+    padding: 0px;
+    border: 0px;
+}
+.class1{
+    border: 1px white solid;
+    background-color: rgb(172, 160, 145);
+    width: 500px;
+    height: 500px;
+    text-align: center;
+}
+.class1:hover{
+    opacity: 80%;
+}

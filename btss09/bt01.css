@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    border: 0;
+}
+.class1{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    background-color: white;
+    background-image: url(https://cdnmedia.baotintuc.vn/Upload/c2tvplmdloSDblsn03qN2Q/files/2023/12/19/tong-thong-nga-putin.jpg);
+}
+.class1 .class2{
+    position: absolute;
+    bottom: 0px;
+    background-color: cadetblue;
+    opacity: 70%;
+    width: 500px;
+}
