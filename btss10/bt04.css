@@ -1,0 +1,75 @@
+*{
+    padding: 0px;
+    border: 0px;
+    box-sizing: 0px;
+}
+.class1{
+    width: 250px;
+    height: 100vh;
+    background-color: rgb(6, 6, 59);
+    font-family: sans-serif;
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.class2 {
+    position: absolute;
+    border: 1px  rgb(6, 6, 59);
+    width: 230px;
+    height: 50px;
+    top: 30px;
+    left: 10px;
+}
+.class3 {
+    position: absolute;
+    border: 1px  rgb(6, 6, 59);
+    width: 230px;
+    height: 50px;
+    top: 90px;
+    left: 10px;
+}
+.class4 {
+    position: absolute;
+    border: 1px  rgb(6, 6, 59);
+    width: 230px;
+    height: 50px;
+    top: 150px;
+    left: 10px;
+}
+.class5 {
+    position: absolute;
+    border: 1px  rgb(6, 6, 59);
+    width: 230px;
+    height: 50px;
+    top: 210px;
+    left: 10px;
+}
+.class6 {
+    position: absolute;
+    border: 1px  rgb(6, 6, 59);
+    width: 230px;
+    height: 50px;
+    top: 270px;
+    left: 10px;
+}
+.class2:hover {
+    background-color: rgb(12, 12, 99);
+    opacity: 60%;
+}
+.class3:hover{
+    background-color: rgb(12, 12, 99);
+    opacity: 60%;
+}
+.class4:hover{
+    background-color: rgb(12, 12, 99);
+    opacity: 60%;
+}
+.class5:hover{
+    background-color: rgb(12, 12, 99);
+    opacity: 60%;
+}
+.class6:hover{
+    background-color: rgb(12, 12, 99);
+    opacity: 60%;
+}
