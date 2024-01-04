@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    border: 0px;
+    box-sizing: 0px;
+}
+.class1{
+    width: 100%;
+    height: 100px;
+    background-color: azure;
+    position: relative;
+}
+.class1 .class2{
+    position: absolute;
+    display: flex;
+    list-style: none;
+    position: absolute;
+    left: 300px;
+    top: 20px;
+}
+#home{
+    color: black;
+    padding: 5px 20px;
+}
+#id{
+    color: rgb(95, 91, 91);
+    padding: 5px 20px;
+}
+.class1 .class3{
+    font-family: "Sofia", sans-serif;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+#search{
+    position: absolute;
+    top: 35px;
+    right: 40px;
+    border: 1px solid burlywood;
+    box-sizing: border-box;
+    padding: 5px 20px;
+}
+.material-symbols-outlined {
+}

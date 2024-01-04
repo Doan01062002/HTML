@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    border: 0px;
+    box-sizing: 0px;
+}
+.class1{
+    border: 1px white solid;
+    border-radius: 5%;
+    width: 400px;
+    height: 300px;
+    background-image: url(https://thethaodonga.com/wp-content/uploads/2022/03/bong-ro-la-gi-2.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+.class1 .class2{
+    border: 1px white solid;
+    border-radius: 5px;
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.class3{
+    border-radius: 50%;
+    background-image: url(https://image.shutterstock.com/image-photo/cute-avatar-3d-image-face-260nw-2360816897.jpg);
+    width: 100px;
+    height: 100px;
+    border: 1px white solid;
+    background-size: cover;
+    position: relative;
+}
+#name{
+    position: absolute;
+    left: 150px;
+    top: 40px;
+}
+.class{
+    width: 400px;
+    border: 1px white solid;
+    
+}

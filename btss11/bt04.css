@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    border: 0px;
+    box-sizing: 0px;
+}
+.class1{
+    width: 100%;
+    background-color: bisque;
+    position: relative;
+    height: 600px;
+}
+.class1 .class2{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    right: 20px;
+    top: 10px;
+    gap: 20px;
+}
+.class1 .class3{
+    width: 400px;
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+}
+.img{
+    background-image: url(https://cafefcdn.com/203337114487263232/2023/9/5/5940507coverincognitoinprivateriengtutinhte-16932287652731381722233-1693890548301-1693890548687849173700-1693907485767-16939074860011250981432.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 500px;
+    bottom: 120px;
+}
+.box{
+    position: absolute;
+    left: 100px;
+    bottom: 50px;
+}
+#button{
+    background-color: red;
+    width: 200px;
+    height: 40px;
+    color: white;
+}
+.box:hover{
+    opacity: 80%;
+}
