@@ -1,0 +1,199 @@
+.container{
+    width: 1240px;
+    display: grid;
+    grid-template-columns: 394px 394px 394px;
+    grid-template-rows: 242px 242px 242px;
+    column-gap: 29px;
+    row-gap: 29px;
+    margin-left: 220px;
+    margin-top: 20px;
+}
+
+.container .item{
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.container .item .font-item{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.container .item h2{
+    font-size: 64px;
+    font-weight: 700;
+    color: #518581;
+}
+
+.container .item .font-item h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: #151411;
+}
+
+.container .item .font-item p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #AFADB5;
+}
+
+.amazing{
+    width: 1240px;
+    height: 147px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 220px;
+    margin-bottom: 40px;
+}
+
+.amazing .font-left{
+    width: 491px;
+    height: 147px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.amazing .font-right{
+    display: flex;
+    flex-direction: column;
+    width: 505px;
+    height: 147px;
+    gap: 20px;
+}
+
+.amazing .font-left p{
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFB23F;
+}
+
+.amazing .font-left h2{
+    font-size: 44px;
+    font-weight: 700;
+    color: #151411;
+}
+
+.amazing .font-right p{
+    font-size: 18px;
+    font-weight: 500;
+    color:#AFADB5;
+}
+
+.amazing .font-right h4{
+    font-size: 18px;
+    font-weight: 700;
+    color: #518581;
+}
+
+.img-container{
+    width: 1240px;
+    height: 632px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 220px;
+    margin-bottom: 100px;
+}
+
+.img-container .img-container1{
+    display: flex;
+    align-items: flex-end;
+    width: 505px;
+    height: 632px;
+    background-image: url(https://i.pinimg.com/originals/c3/31/6c/c3316c90693099e28ba951f0c3745e77.jpg);
+    background-size: cover;
+}
+
+.img-container .img-container23{
+    width: 705px;
+    height: 632px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.img-container .img-container23 .img-container2{
+    display: flex;
+    align-items: flex-end;
+    width: 705px;
+    height: 301px;
+    background-size: cover;
+    background-image: url(https://bizweb.dktcdn.net/100/153/764/products/ghe-sofa-370t-5.jpg?v=1646874495233);
+}
+
+.img-container .img-container23 .img-container3{
+    display: flex;
+    align-items: flex-end;
+    width: 705px;
+    height: 301px;
+    background-size: cover;
+    background-image: url(https://img.freepik.com/premium-photo/minimal-cozy-home-work-space-work-home-interior-decoration-inspire-background-graphic-design-illustration_176697-1591.jpg);
+}
+
+.img-container .fontimg{
+    width: 445px;
+    height: 118px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin: 50px;
+}
+
+.img-container .fontimg h4{
+    font-size: 26px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.img-container .fontimg p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+    opacity: 70%;
+}
+
+.img-container .fontimg h5{
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.end-container{
+    width: 1240px;
+    height: 114px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 220px;
+    margin-bottom: 50px;
+}
+
+.end-container .end-container-left{
+    font-size: 44px;
+    height: 700;
+    width: 394px;
+    height: 114px;
+    color: #151411;
+}
+
+.end-container .end-container-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 201px;
+    height: 53px;
+    background-color: #518581;
+    gap: 10px;
+    color: #FFFFFF;
+    border: transparent;
+}
+
+.end-container .end-container-right:hover{
+    opacity: 80%;
+}
