@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     gap: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     color: white;
     margin-top: 200px;
 }
@@ -180,52 +180,102 @@
     background-color: aqua;
 }
 
-/*  */
-.section-touch{
-    background-color: rgba(10, 10, 69, 0.543);
+/* Đây là mục section services */
+.section-services{
     display: flex;
-    padding: 40px;
-    gap: 100px;
-}
-.section-touch .section-touch1 .c1{
+    flex-direction: column;
+    gap: 30px;
     color: white;
-    position: relative;
-    top: -70px;
-}
-.section-touch .section-touch1 {
-    color: white;
-    
-
-}
-.section-touch .section-touch1 img{
-    width: 200px;
-    height: 260px;
-    position: relative;
-    top: -200px;
-}
-.section-touch .section-touch2 input {
-    width: 350px;
-    height: 50px;
-    color: darkgray;
-    background-color: rgb(62, 62, 103);
-    border-radius: 10px;
-}
-.section-touch .section-touch2  .c2 {
-    width:700px;
-    height: 50px;
+    margin-left: 100px;
+    margin-bottom: 100px;
 }
 
-.section-touch .section-touch2  .c3 {
-    width:700px;
-    height: 100px;
-}
-.section-touch .section-touch2  button{
-    border-radius: 10px;
-    width:700px;
+.section-services .services-top{
+    width: 100px;
     height: 30px;
-    background-color: rgba(27, 187, 227, 0.721);
+    border: transparent;
+    background-color:  rgb(22, 22, 143);
+    color: white;
+    font-size: 20px;
 }
-.section-touch .section-touch2{
-    position: relative;
-    top:60px;
+
+.section-services h2{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.section-services b{
+    color: rgb(22, 22, 143);
+}
+
+.section-services .design{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.section-services .design .information-design{
+    background-size: cover;
+    width: 350px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-services .design .information-design:hover{
+    opacity: 85%;
+}
+
+.section-services .design .information-design-top{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(1, 1, 255);
+    border-radius: 5px;
+    color: white;
+    border: transparent;
+}
+
+.section-services .design ul{
+    border-top: 1px solid rgb(131, 121, 121);
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.section-services .design li{
+    color: gold;
+    margin: 3px;
+}
+
+.section-services .design .information-design-all{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 200px;
+}
+
+.section-services .design .design-1{
+    background-image: url(https://bizweb.dktcdn.net/100/438/408/files/hinh-nen-mau-den-chat-yody-vn-5.jpg?v=1676599956110);
+    background-size: cover;
+}
+
+.section-services .design .design-2{
+    background-image: url(https://i.pinimg.com/1200x/01/b0/2a/01b02ae21a4858bcca003d1d0730c137.jpg);
+    background-size: cover;
+}
+
+.section-services .design .design-3{
+    background-image: url(https://phongvu.vn/cong-nghe/wp-content/uploads/sites/2/2018/09/dubai-hinh-nen-dong-img-1.jpg);
+    background-size: cover;
+}
+
+.section-services .design .design-4{
+    background-image: url(https://static.wixstatic.com/media/9d8ed5_fc2fe070919c4cab9dfa3a8f7a714134~mv2.jpg/v1/fill/w_640,h_490,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/9d8ed5_fc2fe070919c4cab9dfa3a8f7a714134~mv2.jpg);
+    background-size: cover;
 }
